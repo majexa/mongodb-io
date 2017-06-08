@@ -1,5 +1,5 @@
 const {exec, execSync} = require('child_process');
-const cmdName = process.platform === 'linux' ? ['mongorestore-linux', 'mongodump-linux'] : ['mongorestore', 'mongodump'];
+const cmdName = ['mongorestore', 'mongodump'];
 
 const setConfig = (config = {}) => {
   var defaultConfig = {

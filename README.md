@@ -3,6 +3,10 @@
 # mongodb-io
 export & import mongodb documents, base on `mongodump` and `mongorestore`.
 
+## Required
+
+Mongo installed (with mongodump, mongorestore utils)
+
 ## Support
 
 only for linux x64 and OS X x64.
