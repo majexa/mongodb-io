@@ -22,7 +22,7 @@ const getCmds = (config, dbs, isImport) => {
   var cmds = [];
   var getCmd = ({dbName, collectionName, query, drop} = {}) => {
     let {host, port, user, password, out, drop: configDrop} = config;
-    let cmd = (isImport ? `${__dirname}/../${cmdName[0]}` : `${__dirname}/../${cmdName[1]}`) + ` -h ${host} --port ${port}`;
+    let cmd = (isImport ? `${cmdName[0]}` : `${cmdName[1]}`) + ` -h ${host} --port ${port}`;
     if (!isImport) cmd += ` -o /tmp/${out}`;
     if (user) cmd += ` -u ${user}`;
     if (password) cmd += ` -p ${password}`;
