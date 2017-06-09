@@ -8,17 +8,14 @@
     "mongodump",
     "mongorestore"
   ],
-  "author": "youngerheart",
+  "author": "Andrey Yartsev",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/youngerheart/mongodb-io/issues"
-  },
-  "homepage": "https://github.com/youngerheart/mongodb-io",
+  "homepage": "https://github.com/majexa/mongodb-io-native",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngerheart/mongodb-io.git"
+    "url": "git+https://github.com/majexa/mongodb-io-native.git"
   }
 }
