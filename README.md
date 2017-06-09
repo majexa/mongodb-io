@@ -1,7 +1,7 @@
 [![NPM version](https://img.shields.io/npm/v/mongodb-io.svg)](https://www.npmjs.com/package/mongodb-io) [![Downloads](https://img.shields.io/npm/dm/mongodb-io.svg)](http://badge.fury.io/js/mongodb-io)
 
 Original mongodb-io exports empty databases on Ubuntu server. So I replaced 
-mongodump-linux, mongorestore-linux tools with mongo native. So mongodb is
+mongodump-linux, mongorestore-linux tools with native mongo ones. So mongodb is
 required to install now.
 
 Fork made for [mongo-export server](http://github.com/majexa/mongo-export) & [mongo-import](http://github.com/majexa/mongo-import) tool.
